@@ -1,5 +1,3 @@
-
-
 from flask import Flask, render_template, request, redirect
 # from flask_mail import Mail, Message
 from jinja2 import TemplateNotFound
@@ -15,8 +13,9 @@ app.config.from_object(__name__)
 
 @app.route("/")
 def index():
+    title='SrcFount'
     try:
-        return render_template("index.html")
+        return render_template("index.html", mytitle=title)
     except TemplateNotFound:
         return 'I Do Not Find This page' #abort(404)
 
