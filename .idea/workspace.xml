@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a90b092-6b82-4ad4-b8c5-abbf1109b1dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SrcFount.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Body.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/LightBoxes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Temp1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="9a90b092-6b82-4ad4-b8c5-abbf1109b1dc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597927847823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update 1">
+      <created>1598129252972</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598129252982</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New" />
     <MESSAGE value="New1" />
-    <option name="LAST_COMMIT_MESSAGE" value="New1" />
+    <MESSAGE value="Update 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 1" />
   </component>
 </project>
