@@ -1,92 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a90b092-6b82-4ad4-b8c5-abbf1109b1dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gene.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/members/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/ex-header-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fontawesome-all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Memform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Terms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/enrol/member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/1-chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/2-software.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/3-data.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/S10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/S3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/S4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/S5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/S7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/contact-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/details-1-office-worker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/details-2-office-team-work.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/details-lightbox-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/details-lightbox-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/down-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/ex-header-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/f9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/group.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/header-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/header-teamwork.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/services-icon-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/services-icon-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/services-icon-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/statement-icon-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/team-member-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/team-member-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/team-member-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/team-member-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/testimonial-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/testimonial-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/testimonial-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/testimonials-2-men-talking.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/testimonials-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/up-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/images/video-frame.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/php/contactform-process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/php/privacyform-process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/php/requestform-process.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/privacy-policy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/privecy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/terms-conditions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/webfonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxsq.py" afterDir="false" />
+    <list default="true" id="9a90b092-6b82-4ad4-b8c5-abbf1109b1dc" name="Default Changelist" comment="In progress">
+      <change afterPath="$PROJECT_DIR$/static/images/bg-alt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/svg_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Form1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SF.db" beforeDir="false" afterPath="$PROJECT_DIR$/SF.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Head.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Request.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Video.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Memform.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Memform.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +52,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VicFskWeb2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flasktemp/pusher-python-realtime-dashboard-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -230,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598179364566</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="In progress">
+      <created>1598345592218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598345592218</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -256,6 +188,7 @@
     <MESSAGE value="Update 1" />
     <MESSAGE value="Update 2" />
     <MESSAGE value="Update 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 3" />
+    <MESSAGE value="In progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="In progress" />
   </component>
 </project>

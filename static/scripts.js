@@ -143,7 +143,8 @@
 		removalDelay: 300,
 		mainClass: 'my-mfp-slide-bottom'
 	});
-    
+
+
     
     /* Move Form Fields Label When User Types */
     // for input and textarea fields

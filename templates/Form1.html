@@ -1,0 +1,137 @@
+{% block form1 %}
+
+<!-- Header -->
+    <header id="header" class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Please fill out the Form below</h1>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
+
+ <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>New Form</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+
+<!-- Details form 1 -->
+   <div id="Rform1" class="form-Member">
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h4 class="display-6">Your general profile:</h4>
+                        <p class="lead">Name:  {{ mydata['name'] }} Email: {{ mydata['email'] }} </p>
+                        <!-- <p class="lead">Email: {{ mydata['email'] }}</p>-->
+                        <p class="lead">Phone: {{ mydata['phone'] }} Member:{{ mydata['select'] }}</p>
+                        <!-- <p class="lead">Member:{{ mydata['select'] }}</p> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6">
+
+                    <!-- Request Form -->
+                    <div class="form-container">
+                         <!--<form id="requestForm" data-toggle="validator" data-focus="false">-->
+                         <form id="rForm-1" action="" method="post" enctype = "multipart/form-data">
+                            <p>What skills do you have and what service do you want to do?</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="srefr" name="srefr" required>
+                                <label class="label-control" for="srefr">your skills</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <p >What skills do you need and what service do you want to receive?</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="nrefr" name="nrefr" required>
+                                <label class="label-control" for="nrefr">skills need</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <p>What data do you have and which ones do you make public?</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="sdata" name="sdata" required>
+                                <label class="label-control" for="sdata">your data</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <p >What data do you need and how important is it to you?</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="ndata" name="ndata" required>
+                                <label class="label-control" for="ndata">data need</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <p>What technology and facilities do you use and which department do you provide?</p>
+                            <div class="form-group">
+                                <textarea type="text" class="form-control-input" id="sftur" name="sftur" required></textarea>
+                                <label class="label-control" for="sftur">Your facilities</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <p>Which template and environment and which programming and web languages communicate with you?</p>
+                            <div class="form-group">
+                                <textarea type="text" class="form-control-input" id="nftur" name="nftur" required></textarea>
+                                <label class="label-control" for="nftur">facilities need</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <p>The name of your project or your website address:</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control-input" id="mweb" name="mweb" required>
+                                <label class="label-control" for="mweb">project or http://</label>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <p>Description in text format and sample file in any format required:</p>
+                            <div class="form-group">
+                                <input type="file" name="file1">
+                            </div>
+                            <p>Sample database and explanations required:</p>
+                            <div class="form-group">
+                                <input type="file" name="file2">
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="form-control-submit-button">request membership</button>
+                            </div>
+
+                            <div class="form-message">
+                                <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div> <!-- end of form-container -->
+                    <!-- end of request form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of request -->
+
+
+
+<!-- end of details form 1 -->
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        <a href="index.html">Home</a><i class="fa fa-angle-double-right"></i><span>New Form</span>
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+
+{% endblock %}

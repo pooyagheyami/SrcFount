@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
- <h1>Member Form</h1>
+{% include "Head.html" %}
+{% include "Nav.html" %}
 
- <h3>{{ mydata }}</h3>
-</body>
-</html>
+{% include "Form1.html" %}
+
+{% include "Foot.html" %}
+
+{% extends "Main.html" %}
+
+{% block Body %}
+
+{% block Nav  %}{% endblock %}
+
+{% block form1 %}{% endblock %}
+
+{% block Foot %}{% endblock %}
+
+{% endblock %}

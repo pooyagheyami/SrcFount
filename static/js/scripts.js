@@ -144,7 +144,7 @@
 		mainClass: 'my-mfp-slide-bottom'
 	});
     
-    
+
     /* Move Form Fields Label When User Types */
     // for input and textarea fields
     $("input, textarea").keyup(function(){
@@ -180,7 +180,7 @@
         $.ajax({
             type: "POST",
             //url: "php/requestform-process.php",
-            url: "/Memform.html",
+            url: "/enrol",
             data: "name=" + name + "&email=" + email + "&phone=" + phone + "&select=" + select + "&terms=" + terms, 
             success: function(text) {
                 console.log(text);
@@ -197,7 +197,9 @@
     function rformSuccess() {
         $("#requestForm")[0].reset();
         rsubmitMSG(true, "Request Submitted!");
-        $("input").removeClass('notEmpty'); // resets the field label after submission
+        $("input").removeClass('notEmpty') // resets the field label after submission
+
+        window.location.href = "/Memform.html";
     }
 
     function rformError() {
