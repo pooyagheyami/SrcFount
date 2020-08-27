@@ -68,17 +68,10 @@ def terms():
     except TemplateNotFound:
         return 'I Do Not Find This Page'
 
-@app.route("/privacy-policy.html")
+@app.route("/privacy-policy.html",methods=['POST','GET'])
 def privacy():
     #title='SrcFount-privacy'
-    try:
-        return render_template("privacy-policy.html")
-    except TemplateNotFound:
-        return 'I Do Not Find This Page'
-
-@app.route("/privacy",methods=['POST','GET'])
-def mailme():
-    if request.methos == 'POST':
+    if request.method == 'POST':
         name = request.form.get("name")
         emil = request.form.get("email")
         slct = request.form.get("select")
@@ -92,6 +85,29 @@ def mailme():
             writer.writerow((name, emil, slct, term, msge))
             file.close()
             postmail([name, emil, slct, term, msge])
+            return 'success'
+    else:
+        try:
+            return render_template("privacy-policy.html")
+        except TemplateNotFound:
+            return 'I Do Not Find This Page'
+
+@app.route("/Contact",methods=['POST','GET'])
+def mailme():
+    if request.method == 'POST':
+        name = request.form.get("name")
+        emil = request.form.get("email")
+        msge = request.form.get("message")
+        term = request.form.get("terms")
+
+        if name == '' or emil == '':
+            return 'error '  # redirect("/#Question")
+        else:
+            file = open("qustion.csv", "a")
+            writer = csv.writer(file)
+            writer.writerow((name, emil, msge, term))
+            file.close()
+            postmail([name, emil, msge, term])
             return 'success'
 
 

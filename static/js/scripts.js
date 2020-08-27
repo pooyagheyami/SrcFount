@@ -239,7 +239,8 @@
         var terms = $("#cterms").val();
         $.ajax({
             type: "POST",
-            url: "php/contactform-process.php",
+            //url: "php/contactform-process.php",
+            url: "/Contact",
             data: "name=" + name + "&email=" + email + "&message=" + message + "&terms=" + terms, 
             success: function(text) {
                 if (text == "success") {
@@ -298,7 +299,7 @@
         $.ajax({
             type: "POST",
             //url: "php/privacyform-process.php",
-            url: "/privacy",
+            url: "/privacy-policy.html",
             data: "name=" + name + "&email=" + email + "&select=" + select + "&terms=" + terms, 
             success: function(text) {
                 if (text == "success") {
