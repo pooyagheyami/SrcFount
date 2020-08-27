@@ -51,14 +51,30 @@ def postmail(data):
     server.send_message(msg)
     server.quit()
 
-@app.route("/")
-@app.route("/index.html")
+@app.route("/" , methods=['POST','GET'])
+@app.route("/index.html", methods=['POST','GET'])
 def index():
     title='SrcFount'
-    try:
-        return render_template("index.html", mytitle=title)
-    except TemplateNotFound:
-        return 'I Do Not Find This page' #abort(404)
+    if request.method == 'POST':
+        name = request.form.get("name")
+        emil = request.form.get("email")
+        msge = request.form.get("message")
+        term = request.form.get("terms")
+
+        if name == '' or emil == '':
+            return 'error '  # redirect("/#Question")
+        else:
+            file = open("qustion.csv", "a")
+            writer = csv.writer(file)
+            writer.writerow((name, emil, "From Contact", term, msge))
+            file.close()
+            postmail([name, emil, "From Contact", term, msge])
+            return 'success'
+    else:
+        try:
+            return render_template("index.html", mytitle=title)
+        except TemplateNotFound:
+            return 'I Do Not Find This page' #abort(404)
 
 @app.route("/terms-conditions.html")
 def terms():
@@ -92,8 +108,8 @@ def privacy():
         except TemplateNotFound:
             return 'I Do Not Find This Page'
 
-@app.route("/Contact",methods=['POST','GET'])
-def mailme():
+@app.route("/conect",methods=['POST','GET'])
+def conect():
     if request.method == 'POST':
         name = request.form.get("name")
         emil = request.form.get("email")
