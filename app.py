@@ -25,6 +25,32 @@ mmdata = []
 mmid = ''
 mmdr = ''
 
+# config parameter
+DEBUG = True
+MAIL_SERVER = u'smtp.gmail.com'
+MAIL_USERNAME = u'srcfount14@gmail.com'
+MAIL_PASSWORD = u'Pooy@1347'
+MAIL_PORT = 587
+MAIL_USE_SSL = True
+MAIL_USE_TLS = False
+
+def postmail(data):
+    #print(data)
+    BodyMail = 'name: '+data[0]+'\n'+'email: '+data[1]+'\n'+'select: '+data[2]+'\n'+'terms: '+data[3]+'\n'+'message :\n'+data[4]+'\n'
+
+    msg = EmailMessage()
+    msg['Subject'] = 'New Message'
+    msg['From'] = MAIL_USERNAME
+    msg['To'] = 'pooyagheyami@gmail.com'
+    msg.set_content(BodyMail)
+    #print(msg)
+    server = smtplib.SMTP(MAIL_SERVER,MAIL_PORT)
+    server.starttls()
+    #server.set_debuglevel(1)
+    server.login(MAIL_USERNAME, MAIL_PASSWORD)  # user & password
+    server.send_message(msg)
+    server.quit()
+
 @app.route("/")
 @app.route("/index.html")
 def index():
@@ -49,6 +75,25 @@ def privacy():
         return render_template("privacy-policy.html")
     except TemplateNotFound:
         return 'I Do Not Find This Page'
+
+@app.route("/privacy",methods=['POST','GET'])
+def mailme():
+    if request.methos == 'POST':
+        name = request.form.get("name")
+        emil = request.form.get("email")
+        slct = request.form.get("select")
+        term = request.form.get("terms")
+        msge = 'this message sended from privacy-policy'
+        if name == '' or emil == '':
+            return 'error '  # redirect("/#Question")
+        else:
+            file = open("qustion.csv", "a")
+            writer = csv.writer(file)
+            writer.writerow((name, emil, slct, term, msge))
+            file.close()
+            postmail([name, emil, slct, term, msge])
+            return 'success'
+
 
 @app.route("/Memform.html",methods=['POST','GET'])
 def memform():
@@ -125,6 +170,5 @@ def enrol():
 
 
 
-
 if __name__ == '__main__':
-    app.run(debug=True,port=5000)
+    app.run()
