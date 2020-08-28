@@ -146,7 +146,7 @@ def memform():
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], mmdr + '\\' + filename))
             #print("saved file successfully")
 
-        return "success send form"
+        return render_template("success.html")
 
     else:
         try:

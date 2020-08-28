@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a90b092-6b82-4ad4-b8c5-abbf1109b1dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/members/0pooy2922/srcfount1.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/members/0pooy2922/srcfount2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/SF9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SF.db" beforeDir="false" afterPath="$PROJECT_DIR$/SF.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qustion.csv" beforeDir="false" afterPath="$PROJECT_DIR$/qustion.csv" afterDir="false" />
     </list>
@@ -46,10 +60,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VicFskWeb2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyPjct\SrcFount\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MyPjct\SrcFount\templates" />
     </key>
@@ -66,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="SrcFount" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SrcFount" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,8 +126,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SrcFount" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.app (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
@@ -210,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598543135631</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="last update 1">
+      <created>1598544476943</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598544476943</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
